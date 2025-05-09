@@ -1,0 +1,167 @@
+2025-03-07 12:00:02 - INFO - \U0001f680 Starting Data Processing Step
+2025-03-07 12:00:02 - INFO - \u2705 Loaded dataset: 500 rows, 9 columns
+2025-03-07 12:00:02 - INFO - Label encoder saved at D:/MLOPS-2025-DSC/mlops2025-DSC/Artifacts\label_encoder.pkl
+2025-03-07 12:00:02 - INFO - \u2705 Target variable encoded and saved at D:/MLOPS-2025-DSC/mlops2025-DSC/Artifacts\label_encoder.pkl
+2025-03-07 12:00:02 - INFO - Data processing pipeline created successfully.
+2025-03-07 12:00:02 - INFO - Pipeline saved at D:/MLOPS-2025-DSC/mlops2025-DSC/Artifacts\data_processing_pipeline.pkl
+2025-03-07 12:00:02 - INFO - \u2705 Data pipeline created and saved at D:/MLOPS-2025-DSC/mlops2025-DSC/Artifacts\data_processing_pipeline.pkl
+2025-03-07 12:00:02 - INFO - \u2705 Data split completed
+2025-03-07 12:00:03 - INFO - Model trained and saved at D:/MLOPS-2025-DSC/mlops2025-DSC/Artifacts\best_classifier.pkl
+2025-03-07 12:00:03 - INFO - \u2705 Model trained and saved at D:/MLOPS-2025-DSC/mlops2025-DSC/Artifacts\best_classifier.pkl
+2025-03-07 12:00:03 - INFO - Model loaded successfully.
+2025-03-07 12:00:03 - INFO - \u2705 Predictions completed
+2025-03-07 12:00:03 - INFO - Model loaded successfully.
+2025-03-07 12:00:03 - INFO - Model evaluation completed.
+2025-03-07 12:00:03 - INFO - Confusion Matrix:
+[[14  0  0]
+ [ 0 12  0]
+ [ 0  0 74]]
+2025-03-07 12:00:03 - INFO - Accuracy Score: 1.0
+2025-03-07 12:00:03 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+   High Risk       1.00      1.00      1.00        14
+    Low Risk       1.00      1.00      1.00        12
+ Medium Risk       1.00      1.00      1.00        74
+
+    accuracy                           1.00       100
+   macro avg       1.00      1.00      1.00       100
+weighted avg       1.00      1.00      1.00       100
+
+2025-03-07 12:00:03 - INFO - \u2705 Model evaluation completed
+2025-03-07 12:00:03 - INFO - Confusion Matrix:
+[[14  0  0]
+ [ 0 12  0]
+ [ 0  0 74]]
+2025-03-07 12:00:03 - INFO - Accuracy Score: 1.0
+2025-03-07 12:00:03 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+   High Risk       1.00      1.00      1.00        14
+    Low Risk       1.00      1.00      1.00        12
+ Medium Risk       1.00      1.00      1.00        74
+
+    accuracy                           1.00       100
+   macro avg       1.00      1.00      1.00       100
+weighted avg       1.00      1.00      1.00       100
+
+2025-03-07 12:03:47 - INFO - Predicted Risk Category: High Risk
+2025-03-07 12:04:23 - INFO - Predicted Risk Category: Medium Risk
+2025-03-07 12:08:49 - INFO - Batch Prediction Completed Successfully!
+2025-03-07 12:11:25 - INFO - Predicted Risk Category: High Risk
+2025-03-07 12:11:31 - INFO - Predicted Risk Category: Medium Risk
+2025-03-07 12:11:39 - INFO - Batch Prediction Completed Successfully!
+2025-03-29 11:44:48 - INFO - \U0001f680 Starting Data Processing Step
+2025-03-29 11:44:48 - INFO - \u2705 Loaded dataset: 500 rows, 9 columns
+2025-03-29 11:44:48 - INFO - Label encoder saved at D:/MLOPS-2025-DSC/mlops2025-DSC/Artifacts\label_encoder.pkl
+2025-03-29 11:44:48 - INFO - \u2705 Target variable encoded and saved at D:/MLOPS-2025-DSC/mlops2025-DSC/Artifacts\label_encoder.pkl
+2025-03-29 11:44:48 - INFO - Data processing pipeline created successfully.
+2025-03-29 11:44:48 - INFO - Pipeline saved at D:/MLOPS-2025-DSC/mlops2025-DSC/Artifacts\data_processing_pipeline.pkl
+2025-03-29 11:44:48 - INFO - \u2705 Data pipeline created and saved at D:/MLOPS-2025-DSC/mlops2025-DSC/Artifacts\data_processing_pipeline.pkl
+2025-03-29 11:44:48 - INFO - \u2705 Data split completed
+2025-03-29 11:44:48 - INFO - Model trained and saved at D:/MLOPS-2025-DSC/mlops2025-DSC/Artifacts\best_classifier.pkl
+2025-03-29 11:44:48 - INFO - \u2705 Model trained and saved at D:/MLOPS-2025-DSC/mlops2025-DSC/Artifacts\best_classifier.pkl
+2025-03-29 11:44:48 - INFO - Model loaded successfully.
+2025-03-29 11:44:48 - INFO - \u2705 Predictions completed
+2025-03-29 11:44:48 - INFO - Model loaded successfully.
+2025-03-29 11:44:48 - INFO - Model evaluation completed.
+2025-03-29 11:44:48 - INFO - Confusion Matrix:
+[[14  0  0]
+ [ 0 12  0]
+ [ 0  0 74]]
+2025-03-29 11:44:48 - INFO - Accuracy Score: 1.0
+2025-03-29 11:44:48 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+   High Risk       1.00      1.00      1.00        14
+    Low Risk       1.00      1.00      1.00        12
+ Medium Risk       1.00      1.00      1.00        74
+
+    accuracy                           1.00       100
+   macro avg       1.00      1.00      1.00       100
+weighted avg       1.00      1.00      1.00       100
+
+2025-03-29 11:44:48 - INFO - \u2705 Model evaluation completed
+2025-03-29 11:44:48 - INFO - Confusion Matrix:
+[[14  0  0]
+ [ 0 12  0]
+ [ 0  0 74]]
+2025-03-29 11:44:48 - INFO - Accuracy Score: 1.0
+2025-03-29 11:44:48 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+   High Risk       1.00      1.00      1.00        14
+    Low Risk       1.00      1.00      1.00        12
+ Medium Risk       1.00      1.00      1.00        74
+
+    accuracy                           1.00       100
+   macro avg       1.00      1.00      1.00       100
+weighted avg       1.00      1.00      1.00       100
+
+2025-03-29 11:57:53 - INFO - Predicted Risk Category: High Risk
+2025-03-29 11:58:20 - INFO - Predicted Risk Category: High Risk
+2025-03-29 11:58:34 - INFO - Predicted Risk Category: High Risk
+2025-03-29 12:00:07 - INFO - Predicted Risk Category: High Risk
+2025-03-29 12:00:38 - INFO - Predicted Risk Category: Low Risk
+2025-03-29 12:05:35 - INFO - Batch Prediction Completed Successfully!
+2025-04-19 01:51:37 - INFO - Predicted Risk Category: High Risk
+2025-04-19 01:51:51 - INFO - Batch Prediction Completed Successfully!
+2025-04-19 14:51:59 - INFO - Predicted Risk Category: High Risk
+2025-04-19 14:54:54 - INFO - Batch Prediction Completed Successfully!
+2025-04-29 14:39:35 - INFO - Predicted Risk Category: High Risk
+2025-04-29 14:39:58 - INFO - Batch Prediction Completed Successfully!
+2025-04-29 15:01:01 - INFO - Predicted Risk Category: High Risk
+2025-04-29 15:01:08 - INFO - Batch Prediction Completed Successfully!
+2025-05-09 15:08:19 - INFO - \U0001f680 Starting Data Processing Step
+2025-05-09 15:08:19 - INFO - \u2705 Loaded dataset: 500 rows, 9 columns
+2025-05-09 15:08:19 - INFO - Label encoder saved at D:\MLOPS_Practical_2025\mlops-practical-render\Artifacts\label_encoder.pkl
+2025-05-09 15:08:19 - INFO - \u2705 Target variable encoded and saved at D:\MLOPS_Practical_2025\mlops-practical-render\Artifacts\label_encoder.pkl
+2025-05-09 15:08:19 - INFO - Data processing pipeline created successfully.
+2025-05-09 15:08:19 - INFO - Pipeline saved at D:\MLOPS_Practical_2025\mlops-practical-render\Artifacts\data_processing_pipeline.pkl
+2025-05-09 15:08:19 - INFO - \u2705 Data pipeline created and saved at D:\MLOPS_Practical_2025\mlops-practical-render\Artifacts\data_processing_pipeline.pkl
+2025-05-09 15:08:19 - INFO - \u2705 Data split completed
+2025-05-09 15:08:20 - INFO - Model trained and saved at D:\MLOPS_Practical_2025\mlops-practical-render\Artifacts\best_classifier.pkl
+2025-05-09 15:08:20 - INFO - \u2705 Model trained and saved at D:\MLOPS_Practical_2025\mlops-practical-render\Artifacts\best_classifier.pkl
+2025-05-09 15:08:20 - INFO - Model loaded successfully.
+2025-05-09 15:08:20 - INFO - \u2705 Predictions completed
+2025-05-09 15:08:20 - INFO - Model loaded successfully.
+2025-05-09 15:08:20 - INFO - Model evaluation completed.
+2025-05-09 15:08:20 - INFO - Confusion Matrix:
+[[14  0  0]
+ [ 0 12  0]
+ [ 0  0 74]]
+2025-05-09 15:08:20 - INFO - Accuracy Score: 1.0
+2025-05-09 15:08:20 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+   High Risk       1.00      1.00      1.00        14
+    Low Risk       1.00      1.00      1.00        12
+ Medium Risk       1.00      1.00      1.00        74
+
+    accuracy                           1.00       100
+   macro avg       1.00      1.00      1.00       100
+weighted avg       1.00      1.00      1.00       100
+
+2025-05-09 15:08:20 - INFO - \u2705 Model evaluation completed
+2025-05-09 15:08:20 - INFO - Confusion Matrix:
+[[14  0  0]
+ [ 0 12  0]
+ [ 0  0 74]]
+2025-05-09 15:08:20 - INFO - Accuracy Score: 1.0
+2025-05-09 15:08:20 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+   High Risk       1.00      1.00      1.00        14
+    Low Risk       1.00      1.00      1.00        12
+ Medium Risk       1.00      1.00      1.00        74
+
+    accuracy                           1.00       100
+   macro avg       1.00      1.00      1.00       100
+weighted avg       1.00      1.00      1.00       100
+
+2025-05-09 15:09:02 - INFO - Predicted Risk Category: High Risk
+2025-05-09 15:09:11 - INFO - Batch Prediction Completed Successfully!
+2025-05-09 19:07:35 - INFO - Predicted Risk Category: High Risk
+2025-05-09 19:30:43 - INFO - Predicted Risk Category: High Risk
+2025-05-09 19:33:55 - INFO - Predicted Risk Category: High Risk
+2025-05-09 19:37:37 - INFO - Predicted Risk Category: High Risk
