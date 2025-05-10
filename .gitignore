@@ -1,3 +1,4 @@
 
 # Ignore raw and processed data
 Data/
+venv
