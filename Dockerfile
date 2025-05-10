@@ -9,14 +9,17 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 # Copy requirements and install
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt \
+    && pip cache purge
 
 # Copy only necessary files
 COPY . .
 
 # Streamlit will look for this
 ENV PYTHONUNBUFFERED=1
-
+ENV ARTIFACTS_DIR=Artifacts
+ENV DATA_DIR=Data
+ENV LOGS_DIR=Logs
 # Expose Streamlit default port
 EXPOSE 8501
 
